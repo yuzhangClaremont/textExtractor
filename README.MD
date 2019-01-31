@@ -1,40 +1,35 @@
-Today’s blog post is part one in a two part series on installing and using the 
 
-https://packaging.python.org/guides/installing-using-pip-and-virtualenv/
-create virtualenv
-python -m virtualenv env
-
-activate virtualenv
-source env/bin/activate
-
-leave
-
-deactivate
-
-
-install tesseract
+# install tesseract, OpenCV
 first step: https://www.pyimagesearch.com/2017/07/03/installing-tesseract-for-ocr/
-brew install tesseract
+"brew install tesseract"
 
 Test on tesseract
 tesseract example_01.png stdout
 tesseract tesseract_inputs/example_03.png stdout digits 
 
-sudo opt install tesseract-ocr
+"sudo opt install tesseract-ocr"
 https://www.pyimagesearch.com/2017/07/10/using-tesseract-ocr-python/
 
-1
-2
-$ pip install pillow
-$ pip install pytesseract
+$ pip3 install pillow
+$ pip3 install pytesseract
 
-pip install opencv-python
+$ pip3 install opencv-python
 
 
 
-to run
+## to run
 
-python run.py --image example_01.png
+python3 run.py --image images/example_01.png
 
 or 
-python ocr.py --image example_02.png --preprocess blur
+python3 run.py --image images/example_02.png --preprocess blur
+
+
+# run2
+pip3 install imutils
+
+python3 run2.py --east frozen_east_text_detection.pb --image images/example_01.png
+
+Download pb file
+
+

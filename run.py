@@ -6,8 +6,8 @@ import cv2
 import os
 
 import sys
-reload(sys)
-sys.setdefaultencoding('utf8') # for foreign languages
+# reload(sys)
+# sys.setdefaultencoding('utf8') # for foreign languages
  
 # construct the argument parse and parse the arguments
 ap = argparse.ArgumentParser()
@@ -46,7 +46,7 @@ os.remove(filename)
 f= open("output.txt",'a') #"a"
 f.write(text)
 f.close()
-print text
+print(text)
  
 # show the output images
 # cv2.imshow("Image", image)
