@@ -25,7 +25,6 @@ or
 python3 run.py --image images/example_02.png --preprocess blur
 
 
-# run2
 pip3 install imutils
 
 python3 run2.py --east frozen_east_text_detection.pb --image images/example_01.png
@@ -33,6 +32,7 @@ python3 run2.py --east frozen_east_text_detection.pb --image images/example_01.p
 Download pb file
 
 # performance
-![Alt text](/Users/maxzhang/Desktop/textExtractor/example.jpg?raw=true "Title")
+![Alt text](/example.jpg?raw=true "Title")
+![Screenshot](example.jpg)
 
 
