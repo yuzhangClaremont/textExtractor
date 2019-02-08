@@ -32,7 +32,8 @@ python3 run2.py --east frozen_east_text_detection.pb --image images/example_01.p
 Download pb file
 
 # performance
-<!-- ![Alt text](/example.jpg?raw=true "Title") -->
+..
+![Alt text](/example.jpg = 100x50?raw=true "Title")
 ![Screenshot](example.jpg = 100x50)
 
 
