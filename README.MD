@@ -34,7 +34,7 @@ Download pb file
 # performance
 
 #..
-![Alt text](/example.jpg?raw=true "Title"){ width: 200px; }
-![Screenshot](example.jpg ){ width: 200px; }
+![Alt text](/example.jpg?raw=true "Title")
+![Screenshot](example.jpg=250x)
 
 
